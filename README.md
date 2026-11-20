@@ -1,5 +1,7 @@
 # ReAct-basic-agent-WikiVoyager
 
+A small ReAct agent in Python, built on Simon Willison's example. The model thinks, picks an action, reads the result, and goes again until it has an answer. It looks things up on Wikipedia and arXiv instead of answering from memory, and the name comes from that: it moves from page to page to find the answer.
+
 ![ReAct diagram](https://react-lm.github.io/files/diagram.png)
 
 ![HotpotQA](https://react-lm.github.io/files/hotpotqa.png)
